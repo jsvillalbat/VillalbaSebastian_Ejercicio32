@@ -36,7 +36,7 @@ def grafica(datafile, plotfile, plotlabel):
     t = np.linspace(0,1,n_t)
     plt.plot(t, data[:,n_x//4], alpha=i/n_t, color='black')
     plt.xlabel("Tiempo")
-    plt.ylabel("$\psi$(x=0)")
+    plt.ylabel("$\psi$(x=L/4)")
 
 
     plt.savefig(plotfile, bbox_inches='tight')
